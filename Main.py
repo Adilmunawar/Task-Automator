@@ -89,7 +89,7 @@ def cloud_backup_google_drive(file_path):
         creds = flow.run_local_server(port=0)
         service = build(API_NAME, API_VERSION, credentials=creds)
         
-        # Upload file to Google Drive
+        # Upload files to Google Drive
         file_metadata = {'name': os.path.basename(file_path)}
         media = MediaFileUpload(file_path, resumable=True)
         file = service.files().create(body=file_metadata, media_body=media, fields='id').execute()
