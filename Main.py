@@ -52,7 +52,7 @@ SCOPES = ['https://www.googleapis.com/auth/drive.file']
 # Dropbox API credentials
 DROPBOX_ACCESS_TOKEN = 'your_dropbox_access_token'
 
-# File category mapping (can be customized)
+# File catergory Mapping(Customize Able)
 extensions_map = {
     'Images': ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff'],
     'Videos': ['.mp4', '.mkv', '.avi', '.mov'],
