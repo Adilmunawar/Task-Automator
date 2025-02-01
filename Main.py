@@ -21,7 +21,7 @@ from tkinter import filedialog
 from PIL import Image
 from PIL.ExifTags import TAGS
 
-# Setting up the log file
+# Setting up the log files
 logging.basicConfig(filename='file_organizer.log', level=logging.INFO, 
                     format='%(asctime)s - %(message)s')
 
